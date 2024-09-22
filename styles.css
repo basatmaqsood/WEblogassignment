@@ -93,8 +93,7 @@ article h2 {
 /* Pagination */
 .pagination {
     display: flex;
-    justify-content: space-between;
-    max-width: 800px;
+    justify-content: space-around;
     margin: 2rem auto;
 }
 .pagination a {
@@ -128,12 +127,5 @@ article h2 {
         width: 80%;
     }
 
-    .pagination {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .pagination a {
-        margin-bottom: 1rem;
-    }
+    
 }
