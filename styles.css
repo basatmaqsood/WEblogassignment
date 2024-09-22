@@ -17,6 +17,10 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
 
 .author {
     margin-top: 0.5rem;
@@ -70,13 +74,20 @@ article h2 {
 }
 
 .blog-content summary {
+
     cursor: pointer;
     font-weight: bold;
-    color: #007acc;
+    background-color: #007acc;
+    color: white;
+    padding: 0.5rem 1rem;
+    width: max-content;
+    border-radius: 5px;
 }
 
+
+
 .blog-content summary:hover {
-    color: #005999;
+    color: bisque;
 }
 
 /* Pagination */
@@ -86,6 +97,16 @@ article h2 {
     max-width: 800px;
     margin: 2rem auto;
 }
+.pagination a {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #007acc;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Blog Image */
 .blog-image {
     min-width: 300px;
     overflow: hidden;
